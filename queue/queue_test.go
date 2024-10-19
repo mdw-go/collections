@@ -3,7 +3,7 @@ package queue
 import (
 	"testing"
 
-	"github.com/mdwhatcott/go-collections/internal/should"
+	"github.com/mdw-go/collections/internal/should"
 )
 
 func TestQueue(t *testing.T) {

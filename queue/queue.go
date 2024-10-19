@@ -1,6 +1,6 @@
 package queue
 
-import "github.com/mdwhatcott/go-collections/list"
+import "github.com/mdw-go/collections/list"
 
 type Queue[T comparable] struct {
 	list *list.List[T]

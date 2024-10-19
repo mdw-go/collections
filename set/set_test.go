@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/mdwhatcott/go-collections/internal/should"
+	"github.com/mdw-go/collections/internal/should"
 )
 
 func TestCreation(t *testing.T) {

@@ -1,6 +1,6 @@
 package stack
 
-import "github.com/mdwhatcott/go-collections/list"
+import "github.com/mdw-go/collections/list"
 
 type Stack[T comparable] struct {
 	list *list.List[T]

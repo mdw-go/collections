@@ -1,8 +1,7 @@
-# github.com/mdwhatcott/go-collections
+# github.com/mdw-go/collections
 
 
-
-	package list // import "github.com/mdwhatcott/go-collections/list"
+	package list // import "github.com/mdw-go/collections/list"
 	
 	Package list implements a generic array list type. The API was inspired
 	by Python's built-in list. https://en.wikipedia.org/wiki/Dynamic_array
@@ -47,7 +46,7 @@
 	
 ---
 
-	package queue // import "github.com/mdwhatcott/go-collections/queue"
+	package queue // import "github.com/mdw-go/collections/queue"
 	
 	
 	TYPES
@@ -72,7 +71,7 @@
 	
 ---
 
-	package set // import "github.com/mdwhatcott/go-collections/set"
+	package set // import "github.com/mdw-go/collections/set"
 	
 	Package set implements a generic set type. Finally!
 	https://en.wikipedia.org/wiki/Set_(mathematics)
@@ -82,6 +81,8 @@
 	type Set[T comparable] map[T]nothing
 	
 	func From[T comparable](items ...T) (result Set[T])
+	
+	func FromMapKeys[K comparable, V any](m map[K]V) (result Set[K])
 	
 	func New[T comparable](size int) Set[T]
 	
@@ -115,7 +116,7 @@
 	
 ---
 
-	package stack // import "github.com/mdwhatcott/go-collections/stack"
+	package stack // import "github.com/mdw-go/collections/stack"
 	
 	
 	TYPES

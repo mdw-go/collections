@@ -3,7 +3,7 @@ package stack
 import (
 	"testing"
 
-	"github.com/mdwhatcott/go-collections/internal/should"
+	"github.com/mdw-go/collections/internal/should"
 )
 
 func TestStack(t *testing.T) {
